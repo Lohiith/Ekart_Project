@@ -12,6 +12,7 @@ function App() {
   return (
     <div className="App">
       <Header cartItems={cartItems} setCartItems={setCartItems}/>
+      <p1 className="text-center mt-1">Welcome to Flipzone - Your Ultimate Online Shopping Destination!</p1>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/search" element={<Home />} />
